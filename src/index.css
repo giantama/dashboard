@@ -1,0 +1,12 @@
+:root {
+  font-family: 'Roboto', system-ui, 'Segoe UI', Arial, sans-serif;
+  color: #1f2937;
+  background-color: #f5f7fa;
+}
+
+/* Se eliminó display:flex / place-items:center del body para que el layout use todo el ancho */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
